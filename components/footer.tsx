@@ -72,12 +72,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
+                <Link href="/docs" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
                   Documentation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
+                <a href="mailto:cutoutai.support@gmail.com" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
                   Support
                 </a>
               </li>
@@ -89,17 +89,17 @@ export default function Footer() {
             <h4 className="font-semibold mb-6 text-foreground">Legal</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
+                <Link href="/privacy" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
+                <Link href="/terms" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
+                <a href="tel:+201011060507" className="hover:text-primary transition-colors duration-300 hover:translate-x-1 inline-block">
                   Contact
                 </a>
               </li>
