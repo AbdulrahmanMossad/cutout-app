@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://cutout-ai.com/sitemap.xml',
+    sitemap: 'https://cutout-app-1q2p.vercel.app/sitemap.xml',
   };
 }
