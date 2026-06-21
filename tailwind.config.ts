@@ -10,9 +10,9 @@ const config: Config = {
       colors: {
         background: '#0f172a',
         foreground: '#f1f5f9',
-        primary: '#0ea5e9',
-        secondary: '#3b82f6',
-        accent: '#06b6d4',
+        primary: '#7c3aed',
+        secondary: '#a78bfa',
+        accent: '#c4b5fd',
         muted: '#1e293b',
         'muted-foreground': '#94a3b8',
       },
