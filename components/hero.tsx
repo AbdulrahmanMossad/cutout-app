@@ -74,18 +74,17 @@ export default function Hero() {
 
           {/* Right Image */}
           <div className="relative hidden lg:flex justify-center items-center">
-            <div className="relative w-full max-w-md">
+            <div className="relative w-full max-w-sm aspect-[9/11]">
               {/* Glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 rounded-3xl blur-2xl -z-10"></div>
               
               {/* Image Container */}
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl border border-primary/20 hover:border-primary/50 transition-all duration-300">
                 <Image
                   src="/assets/5d2121fa-9ff3-491f-88ac-652f87962b5d_thumbnail_with_bgc.png"
                   alt="CutOut AI App Preview"
-                  width={400}
-                  height={500}
-                  className="w-full h-auto object-cover animate-fade-in-up"
+                  fill
+                  className="object-cover animate-fade-in-up"
                   priority
                   style={{ animationDelay: '0.2s' }}
                 />
