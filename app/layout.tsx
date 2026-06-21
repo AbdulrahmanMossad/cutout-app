@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://cutout-ai.com',
+    url: 'https://cutout-app-1q2p.vercel.app/',
     title: 'CutOut AI - Privacy-First Offline Background Remover',
     description: 'Remove image backgrounds 100% offline and on-device. Fast, private, and secure.',
     siteName: 'CutOut AI',
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
-  metadataBase: new URL('https://cutout-ai.com'),
+  metadataBase: new URL('https://cutout-app-1q2p.vercel.app/'),
   alternates: {
-    canonical: 'https://cutout-ai.com',
+    canonical: 'https://cutout-app-1q2p.vercel.app/',
   },
 };
 
