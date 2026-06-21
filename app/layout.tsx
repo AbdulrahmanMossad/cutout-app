@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   creator: 'Abdulrahman Mossad',
   publisher: 'CutOut AI',
   robots: 'index, follow',
+  verification: {
+    google: '1JnJwWlRv4ZBiJemRxPPXCRNhBiFvBBPo8cCwJOE_rs',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
